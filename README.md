@@ -1,0 +1,1 @@
+A repository ehhez a [blog bejegyzéshez](https://hunszasz.github.io/hasznos/test/trend/2023/09/22/a-java21-el%C3%A9rkezett-%C3%ADgy-kezd-haszn%C3%A1lni-4-l%C3%A9p%C3%A9sben.html) készült.
