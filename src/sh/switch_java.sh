@@ -28,17 +28,5 @@ else
     echo "no java"
 fi
 
-if [[ "$_java" ]]; then
-    version=$("$_java" -version 2>&1 | awk -F '"' '/version/ {print $2}')
-    echo version "$version"
-    if [[ "$version" == "1.8"* ]]; then
-        echo version is 1.8
-    elif [[ "$version" == "1."* ]]; then
-        echo version is less than 1.8
-    else
-	echo version is newer than 1.8
-    fi
-fi
-
 echo 'do not forget:'
 echo 'source /etc/profile.d/java_home.sh'
